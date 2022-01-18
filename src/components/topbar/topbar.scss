@@ -1,0 +1,16 @@
+@import "../../global.scss";
+.topbar {
+  background-color: $main;
+  .in-view {
+    color: $secondary !important;
+  }
+  .nav-link {
+    color: #c73a28;
+  }
+  .logo {
+    color: #c73a28 !important;
+    font-weight: bold;
+    background-color: $secondary;
+    padding: 0 10px;
+  }
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Contact from "./components/contact/Contact";
+import "./app.scss";
+// import "./global.scss";
+import Intro from "./components/intro/Intro";
+import MyPortfolio from "./components/portfolio/MyPortfolio";
+// import Testimonials from "./components/testimonials/Testimonials";
+import Topbar from "./components/topbar/Topbar";
+// import Works from "./components/works/Works";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import { useEffect } from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Topbar />
+      <div className="sections">
+        <Intro />
+        <MyPortfolio />
+        <Contact />
+      </div>
     </div>
   );
 }

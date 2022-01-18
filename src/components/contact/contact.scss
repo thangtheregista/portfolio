@@ -1,0 +1,38 @@
+@import "../../global.scss";
+
+.contact {
+  background-color: $main;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  .contact-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    .contact-wrapper {
+      margin: auto;
+      border: 1px solid black;
+      flex-direction: row;
+      padding: 5px;
+      display: flex;
+      overflow-x: scroll;
+      .contact-props {
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        overflow: visible;
+        .contact-icon-wrapper {
+          font-size: 500px;
+          margin: auto;
+          overflow: visible;
+          a {
+            color: #c73a28;
+          }
+        }
+      }
+    }
+  }
+}

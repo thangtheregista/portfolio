@@ -1,0 +1,17 @@
+.intro {
+  background-image: url(https://user-images.githubusercontent.com/39142850/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  .intro-wrapper {
+    margin: auto;
+    .intro-content {
+      font-size: 70px;
+      font-weight: bold;
+      font-family: Ink Free, Arial, Tahoma, Serif;
+      color: #c73a28;
+      -webkit-text-stroke: 2px #c73a28;
+      text-align: center;
+    }
+  }
+}

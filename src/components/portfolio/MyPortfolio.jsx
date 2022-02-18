@@ -16,7 +16,7 @@ export default function MyPortfolio() {
               I love my friends and my family.
             </li>
             <li className="my-portfolio-item">
-              <a href="https://christmastmer.w3spaces.com/">And i love her.</a>
+              <a href="https://christmastmer.w3spaces.com/"></a>
             </li>
           </ul>
         </div>
